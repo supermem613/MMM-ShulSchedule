@@ -4,6 +4,8 @@ MMM-ShulSchedule is a module for the MagicMirror² project. It displays the sche
 
 It also allows for filtering the events collected, letting you only display what you care about.
 
+![Shul Schedule](image.png)
+
 ## Installation
 
 1. Navigate to your MagicMirror's `modules` folder:
