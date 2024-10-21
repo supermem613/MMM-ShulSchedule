@@ -68,12 +68,17 @@ To use this module, add it to the `modules` array in the `config/config.js` file
 | `excludedEvents`| Array of event filters to exclude certain events from being displayed.      | Array   | []          |
 | `excludedEvents.filterBy` | The string to match against event titles to determine if they should be excluded. | String  | ''          |
 | `excludedEvents.regex`    | Whether the `filterBy` string should be treated as a regular expression.    | Boolean | false       |
+| `calendars.symbol` | The symbol to display next to events from this calendar.                  | String  | 'calendar'  |
+| `calendars.url`    | The URL of the calendar to fetch events from.                             | String  | ''          |
 
-## Example
+To retrieve the calendar URL, if your Shul uses ShulCloud:
 
-Here is an example of how the module might look on your MagicMirror:
-
-![Example](example.png)
+1. Log in to your ShulCloud account.
+1. Navigate to the calendar section.
+1. Look for an option to export or sync your calendar. This might be labeled as "Export," "ICS," "Subscribe," or something similar.
+1. Select the ICS format for export.
+1. Copy the URL.
+1. If you don't see an option to export directly, you might need to check ShulCloud's help documentation or contact their support for specific instructions.
 
 ## Credits
 
